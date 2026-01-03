@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>我的公开记事本</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: "微软雅黑", Arial, sans-serif; background: #f5f5f5; padding: 20px; }
+    h1 { text-align: center; }
+    textarea { width: 100%; font-size: 16px; padding: 10px; }
+    button { width: 100%; padding: 12px; margin-top: 10px; font-size: 16px; }
+    .note-item { background: white; padding: 10px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+<h1>📓 我的公开记事本</h1>
+
+<textarea id="noteInput" placeholder="在这里写点什么..." rows="6"></textarea>
+<button id="saveBtn">保存</button>
+<div id="noteList"></div>
+
+<!-- 外部 JS 文件 -->
+<script src="script.js"></script>
+</body>
+</html>
