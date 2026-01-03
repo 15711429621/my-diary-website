@@ -27,5 +27,3 @@ saveBtn.addEventListener("click", () => {
   renderNotes(); // 刷新页面显示
 });
 
-// 页面加载时显示已有内容
-renderNotes();
